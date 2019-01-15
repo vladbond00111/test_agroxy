@@ -1,0 +1,125 @@
+/* line 2, X:/front/git/test_agroxy/sass/main.sass */
+body {
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Arial", sans-serif;
+}
+
+/* line 7, X:/front/git/test_agroxy/sass/main.sass */
+body header {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* line 10, X:/front/git/test_agroxy/sass/main.sass */
+body header .lang-select {
+  border: none;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Arial", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* line 19, X:/front/git/test_agroxy/sass/main.sass */
+body main h1 {
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* line 23, X:/front/git/test_agroxy/sass/main.sass */
+body main .input-wrap {
+  margin: 0;
+}
+
+/* line 25, X:/front/git/test_agroxy/sass/main.sass */
+body main .input-wrap .form-group {
+  padding: 0px 5px;
+  text-align: center;
+}
+
+/* line 28, X:/front/git/test_agroxy/sass/main.sass */
+body main .input-wrap .form-group .input-name {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #428bca;
+}
+
+/* line 32, X:/front/git/test_agroxy/sass/main.sass */
+body main .button-wrap {
+  margin: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 32px;
+  margin-bottom: 22px;
+}
+
+/* line 38, X:/front/git/test_agroxy/sass/main.sass */
+body main .button-wrap .btn-wrap {
+  padding-left: 0px;
+  padding-right: 5px;
+}
+
+/* line 41, X:/front/git/test_agroxy/sass/main.sass */
+body main .button-wrap .btn-wrap .btn {
+  border: 2px solid;
+  text-transform: uppercase;
+}
+
+/* line 46, X:/front/git/test_agroxy/sass/main.sass */
+body main .cards .card .card-body {
+  position: relative;
+}
+
+/* line 48, X:/front/git/test_agroxy/sass/main.sass */
+body main .cards .card .card-body .card-data {
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+/* line 53, X:/front/git/test_agroxy/sass/main.sass */
+body main .cards .card .card-body .card-name {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #4684D2;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+/* line 60, X:/front/git/test_agroxy/sass/main.sass */
+body main .cards .card .card-body .category-name {
+  color: #666;
+}
+
+/* line 62, X:/front/git/test_agroxy/sass/main.sass */
+body main .cards .card .card-body .categoty-item {
+  color: #000;
+}
+
+/* line 64, X:/front/git/test_agroxy/sass/main.sass */
+body main .cards .card .card-body .btn {
+  margin: 10px 0px;
+  min-width: 120px;
+}
+
+/* line 67, X:/front/git/test_agroxy/sass/main.sass */
+body main .cards .card .card-body .card-price {
+  margin: 10px 0px;
+  float: right;
+  display: inline-block;
+  padding: 7px 10px;
+  border-radius: 7px;
+  background-color: #428bca;
+  color: #fff;
+}
+
+/* line 77, X:/front/git/test_agroxy/sass/main.sass */
+body .container {
+  max-width: 1140px;
+}
+
+/*# sourceMappingURL=../css/main.map */
