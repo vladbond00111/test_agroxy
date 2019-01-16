@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
@@ -9,7 +9,7 @@
   <title>Bootstrap4</title>
 </head>
 <body>
-  <header class=" shadow mb-5 rounded">
+  <header class="shadow mb-5 rounded">
     <nav class="container navbar navbar-expand-md navbar-light">
       <a class="navbar-brand" href="#">
         <img src="img/agroxy.PNG" alt="">
@@ -17,7 +17,7 @@
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse">
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <a class="nav-link" href="#">Реєстрація</a>
@@ -37,71 +37,72 @@
     </nav>
   </header>
   <main>
-    <div class="row justify-content-center ">
-      <h1 class="text-center">Торги</h1>
-      <a href="" class="tip" data-toggle="tooltip" title="Lorem ipsum dolor sit amet">
-        <img src="img/question.PNG" alt="question" height="25" width="25">
-      </a>
-    </div >
-    <form class="container">
-      <div class='row'>
-        <div class="col-xl-7 col-md-12 input-wrap row">
-          <div class="form-group col-lg-4">
-            <label class="input-name" for="select-region">Область</label>
-            <select class="form-control" id="select-region">
-              <option>Автономна республіка Крим </option>
-              <option>Вінницька область</option>
-              <option>Волинська область</option>
-              <option>Дніпропетровська область</option>
-              <option>Донецька область</option>
-              <option>Житомирська область</option>
-              <option>Закарпатська область</option>
-              <option>Запорізька область</option>
-              <option>Івано-Франківська область</option>
-              <option>Київська область</option>
-              <option>Кіровоградська область</option>
-              <option>Луганська область</option>
-              <option>Львівська область</option>
-              <option>Миколаївська область</option>
-              <option>Одеська область</option>
-              <option>Полтавська область</option>
-              <option>Рівненська область</option>
-              <option>Сумська область</option>
-              <option>Тернопільська область</option>
-              <option>Харківська область</option>
-              <option>Херсонська область</option>
-              <option>Хмельницька область</option>
-              <option>Черкаська область</option>
-              <option>Чернівецька область</option>
-              <option>Чернігівська область</option>
-            </select>
-          </div>
-          <div class="form-group col-lg-4 ">
-            <label class="input-name" for="price-min">Ціна</label>
-            <div class="d-flex justify-content-between">
-              <input type="number" class="form-control col-5 d-inline-block" id="price-min"> -
-              <input type="number" class="form-control col-5 d-inline-block" id="price-max">
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <h1 class="text-center">Торги</h1>
+        <a href="" class="tip" data-toggle="tooltip" title="Lorem ipsum dolor sit amet">
+          <img src="img/question.PNG" alt="question" height="25" width="25">
+        </a>
+      </div >
+      <form class="">
+        <div class='row'>
+          <div class="col-xl-7 col-md-12 input-wrap row">
+            <div class="form-group col-lg-4">
+              <label class="input-name" for="select-region">Область</label>
+              <select class="form-control" id="select-region">
+                <option>Автономна республіка Крим </option>
+                <option>Вінницька область</option>
+                <option>Волинська область</option>
+                <option>Дніпропетровська область</option>
+                <option>Донецька область</option>
+                <option>Житомирська область</option>
+                <option>Закарпатська область</option>
+                <option>Запорізька область</option>
+                <option>Івано-Франківська область</option>
+                <option>Київська область</option>
+                <option>Кіровоградська область</option>
+                <option>Луганська область</option>
+                <option>Львівська область</option>
+                <option>Миколаївська область</option>
+                <option>Одеська область</option>
+                <option>Полтавська область</option>
+                <option>Рівненська область</option>
+                <option>Сумська область</option>
+                <option>Тернопільська область</option>
+                <option>Харківська область</option>
+                <option>Херсонська область</option>
+                <option>Хмельницька область</option>
+                <option>Черкаська область</option>
+                <option>Чернівецька область</option>
+                <option>Чернігівська область</option>
+              </select>
+            </div>
+            <div class="form-group col-lg-4 ">
+              <label class="input-name" for="price-min">Ціна</label>
+              <div class="d-flex justify-content-between">
+                <input type="number" class="form-control col-5 d-inline-block" id="price-min"> -
+                <input type="number" class="form-control col-5 d-inline-block" id="price-max">
+              </div>
+            </div>
+            <div class="form-group col-lg-4">
+              <label class="input-name" for="date">Дата</label>
+              <input type="date" class="form-control" id="date">
             </div>
           </div>
-          <div class="form-group col-lg-4">
-            <label class="input-name" for="date">Дата</label>
-            <input type="date" class="form-control" id="date">
+          <div class="col-xl-5 col-md-12 button-wrap row d-flex justify-content-around">
+            <div class="btn-wrap col-12 col-sm-3">
+              <button type="button" class="col-12 btn btn-outline-primary">Пошук</button>
+            </div>
+            <div class="btn-wrap col-12 col-sm-3">
+              <button type="button" class="col-12 btn btn-outline-primary">Скинути</button>
+            </div>
+            <div class="btn-wrap col-12 col-sm-6">
+              <button type="button" class="col-12 btn btn-outline-primary">Продати на торгах</button>
+            </div>
           </div>
         </div>
-        <div class="col-xl-5 col-md-12 button-wrap row d-flex justify-content-around">
-          <div class="btn-wrap col-12 col-sm-3">
-            <button type="button" class="col-12 btn btn-outline-primary">Пошук</button>
-          </div>
-          <div class="btn-wrap col-12 col-sm-3">
-            <button type="button" class="col-12 btn btn-outline-primary">Скинути</button>
-          </div>
-          <div class="btn-wrap col-12 col-sm-6">
-            <button type="button" class="col-12 btn btn-outline-primary">Продати на торгах</button>
-          </div>
-        </div>
-      </div>
-    </form>
-    <div class="cards row">
+      </form>
+      <div class="cards row">
       <div class="card col-lg-3 col-md-4 col-sm-6 col-12">
         <div class="card-body">
           <span class="card-data">21.10.18</span>
@@ -303,6 +304,13 @@
         </div>
       </div>
     </div>
+    </div>
   </main>
 </body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js"></script>
+<!-- <script src="js/main.js"></script> -->
+
 </html>
